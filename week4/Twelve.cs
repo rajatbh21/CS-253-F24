@@ -4,14 +4,16 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace WordFrequency
+namespace Twelve
 {
     class DataStorageManager
     {
-        private string _data = "";
+        private string _data;
 
-        public object Dispatch(string[] message) =>
-            message[0] == "init" ? Init(message[1]) : (message[0] == "words" ? Words() : throw new ArgumentException("Message not understood"));
+        public DataStorageManager()
+        {
+            _data = "";
+        }
 
         private object Init(string filePath)
         {
@@ -19,83 +21,188 @@ namespace WordFrequency
             return null;
         }
 
-        private List<string> Words() => _data.Split(" ", StringSplitOptions.RemoveEmptyEntries).ToList();
+        private List<string> Words()
+        {
+            return _data.Split(" ", StringSplitOptions.RemoveEmptyEntries).ToList();
+        }
+
+        public object Dispatch(string[] message)
+        {
+            if (message[0].Equals("init"))
+            {
+                return Init(message[1]);
+            }
+            else if (message[0].Equals("words"))
+            {
+                return Words();
+            }
+            else
+            {
+                throw new ArgumentException("Message not understood: {0}", message[0]);
+            }
+        }
     }
 
     class StopWordManager
     {
-        private HashSet<string> _stopWords = new();
+        private List<string> _stopWords;
 
-        public object Dispatch(string[] message) =>
-            message[0] == "init" ? Init() : (message[0] == "is_stop_word" ? IsStopWord(message[1]) : throw new ArgumentException("Message not understood"));
+        public StopWordManager()
+        {
+            _stopWords = new List<string>();
+        }
 
         private object Init()
         {
-            _stopWords = File.ReadAllText("../stop_words.txt").Split(",").ToHashSet();
+            _stopWords = File.ReadAllText("../stop_words.txt").Split(",").ToList();
             return null;
+        } 
+
+        private bool IsStopWord(string word)
+        {
+            return _stopWords.Contains(word) || word.Length < 2;
         }
 
-        private bool IsStopWord(string word) => _stopWords.Contains(word) || word.Length < 2;
+        public object Dispatch(string[] message)
+        {
+            if (message[0].Equals("init"))
+            {
+                return Init();
+            }
+            else if (message[0].Equals("is_stop_word"))
+            {
+                return IsStopWord(message[1]);
+            }
+            else
+            {
+                throw new ArgumentException("Message not understood: {0}", message[0]);
+            }
+        }
     }
 
     class WordFrequencyManager
     {
-        private Dictionary<string, int> _wordFreqs = new();
+        private Dictionary<string, int> _wordFrequencies;
 
-        public object Dispatch(string[] message) =>
-            message[0] == "increment_count" ? IncrementCount(message[1]) : (message[0] == "sorted" ? Sorted() : throw new ArgumentException("Message not understood"));
+        public WordFrequencyManager()
+        {
+            _wordFrequencies = new Dictionary<string, int>();
+        }
 
         private object IncrementCount(string word)
         {
-            _wordFreqs[word] = _wordFreqs.GetValueOrDefault(word, 0) + 1;
+            if (_wordFrequencies.ContainsKey(word))
+            {
+                _wordFrequencies[word]++;
+            }
+            else
+            {
+                _wordFrequencies.Add(word, 1);
+            }
             return null;
         }
 
-        private Dictionary<string, int> Sorted() => _wordFreqs.OrderByDescending(kvp => kvp.Value).Take(25).ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
+        private Dictionary<string, int> Sorted()
+        {
+            return _wordFrequencies.OrderByDescending(a => a.Value).ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
+        }
+
+        public object Dispatch(string[] message)
+        {
+            if (message[0].Equals("increment_count"))
+            {
+                return IncrementCount(message[1]);
+            }
+            else if (message[0].Equals("sorted"))
+            {
+                return Sorted();
+            }
+            else
+            {
+                throw new ArgumentException("Message not understood: {0}", message[0]);
+            }
+        }
     }
 
     class WordFrequencyController
     {
-        private readonly DataStorageManager _storageManager = new();
-        private readonly StopWordManager _stopWordManager = new();
-        private readonly WordFrequencyManager _wordFrequencyManager = new();
+        private DataStorageManager _storageManager;
+        private StopWordManager _stopWordManager;
+        private WordFrequencyManager _wordFrequencyManager;
 
-        public object Dispatch(string[] message) =>
-            message[0] == "init" ? Init(message[1]) : (message[0] == "run" ? Run() : throw new ArgumentException("Message not understood"));
+        public WordFrequencyController()
+        {
+            _storageManager = new DataStorageManager();
+            _stopWordManager = new StopWordManager();
+            _wordFrequencyManager = new WordFrequencyManager();
+        }
 
         private object Init(string filePath)
         {
-            _storageManager.Dispatch(new[] { "init", filePath });
-            _stopWordManager.Dispatch(new[] { "init" });
+            _storageManager.Dispatch(new string[] { "init", filePath });
+            _stopWordManager.Dispatch(new string[] { "init" });
             return null;
         }
 
         private object Run()
         {
-            foreach (var w in (List<string>)_storageManager.Dispatch(new[] { "words" }))
-                if (!(bool)_stopWordManager.Dispatch(new[] { "is_stop_word", w }))
-                    _wordFrequencyManager.Dispatch(new[] { "increment_count", w });
+            foreach (var w in (List<string>)_storageManager.Dispatch(new string[] { "words" }))
+            {
+                if (!(bool)_stopWordManager.Dispatch(new string[] { "is_stop_word", w }))
+                {
+                    _wordFrequencyManager.Dispatch(new string[] { "increment_count", w });
+                }
+            }
 
-            foreach (var kvp in (Dictionary<string, int>)_wordFrequencyManager.Dispatch(new[] { "sorted" }))
-                Console.WriteLine($"{kvp.Key} - {kvp.Value}");
-            
+            var wordFrequencies = _wordFrequencyManager.Dispatch(new string[] { "sorted" });
+            foreach (var kvp in ((Dictionary<string, int>)wordFrequencies).Take(25))
+            {
+                Console.WriteLine("{0} - {1}", kvp.Key, kvp.Value);
+            }
+
             return null;
+        }
+
+        public object Dispatch(string[] message)
+        {
+            if (message[0].Equals("init"))
+            {
+                return Init(message[1]);
+            }
+            else if (message[0].Equals("run"))
+            {
+                return Run();
+            }
+            else
+            {
+                throw new ArgumentException("Message not understood: {0}", message[0]);
+            }
         }
     }
 
     class TwelveProg
     {
-        static void Main(string[] args)
+        static int Main(string[] args)
         {
-            if (args.Length == 0 || !File.Exists(args[0]))
+    
+            if (args.Length == 0)
             {
-                Console.WriteLine("Please provide a valid input file.");
-                return;
+                Console.WriteLine("Please enter input text file");
+                return 1;
             }
 
-            var controller = new WordFrequencyController();
-            controller.Dispatch(new[] { "init", args[0] });
-            controller.Dispatch(new[] { "run" });
+         
+            if (!File.Exists(args[0]))
+            {
+                Console.WriteLine("Could not find file {0}", args[0]);
+                return 1;
+            }
+
+            var wordFrequencyController = new WordFrequencyController();
+            wordFrequencyController.Dispatch(new string[] { "init", args[0] });
+            wordFrequencyController.Dispatch(new string[] { "run" });
+
+            return 0;
         }
     }
 }
