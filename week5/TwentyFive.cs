@@ -9,7 +9,7 @@ namespace Style25
     // 25.1: Split program - pure and IO
     public class TFQuarantine
     {
-        private readonly List<Func<object, object>> _funcs = new();
+        private readonly List<Func<object, object>> _funcs = new List<Func<object, object>>();
 
         public TFQuarantine(Func<object, object> func)
         {
