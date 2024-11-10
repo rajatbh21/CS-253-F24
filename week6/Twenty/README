@@ -1,0 +1,9 @@
+javac -cp$ cd framework
+$ javac *.java
+$ jar cfm framework.jar manifest.mf *.class
+$ cd ../app
+$ javac -cp ../framework/framework.jar *.java
+$ jar cf app.jar *.class
+$ cd ../deploy
+$ cp ../framework/*.jar ../app/*.jar .
+$ java -jar framework.jar 

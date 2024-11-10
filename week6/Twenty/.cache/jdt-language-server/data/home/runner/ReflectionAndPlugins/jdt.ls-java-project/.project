@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/Addition.java</name>
+			<type>1</type>
+			<location>//home/runner/ReflectionAndPlugins/app1/Addition.java</location>
+		</link>
+		<link>
+			<name>src/Framework.java</name>
+			<type>1</type>
+			<location>//home/runner/ReflectionAndPlugins/framework/Framework.java</location>
+		</link>
+		<link>
+			<name>src/ISurprise.java</name>
+			<type>1</type>
+			<location>//home/runner/ReflectionAndPlugins/framework/ISurprise.java</location>
+		</link>
+		<link>
+			<name>src/Multiplication.java</name>
+			<type>1</type>
+			<location>//home/runner/ReflectionAndPlugins/app2/Multiplication.java</location>
+		</link>
+		<link>
+			<name>src/Reflect.java</name>
+			<type>1</type>
+			<location>/home/runner/ReflectionAndPlugins/Reflect.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

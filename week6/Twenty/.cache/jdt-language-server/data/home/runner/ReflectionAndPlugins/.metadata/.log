@@ -1,0 +1,1306 @@
+!SESSION 2024-02-09 01:28:57.555 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/ReflectionAndPlugins/.cache/jdt-language-server/data/home/runner/ReflectionAndPlugins
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:10.740
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:13.638
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:13.962
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:14.031
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:14.044
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:14.045
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:14.138
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:14.141
+!MESSAGE Wait for AutoBuildOffJob end 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:14.143
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:14.145
+!MESSAGE Started org.eclipse.m2e.core 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:14.147
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:14.148
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:14.434
+!MESSAGE Started org.eclipse.buildship.core 286ms
+!SESSION 2024-02-09 01:29:31.037 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/ReflectionAndPlugins/.cache/jdt-language-server/data/home/runner/ReflectionAndPlugins
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:42.018
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:44.338
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:44.918
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:44.922
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:45.037
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:45.039
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:45.135
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:45.233
+!MESSAGE Wait for AutoBuildOffJob end 15ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:45.235
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:45.237
+!MESSAGE Started org.eclipse.m2e.core 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:45.239
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:45.240
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:45.552
+!MESSAGE Started org.eclipse.buildship.core 313ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:51.943
+!MESSAGE LoadingGradleVersionJob finished 6324ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:52.317
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:52.318
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:29:53.116
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:02.721
+!MESSAGE Workspace initialized in 10691ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:02.858
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:02.939
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:09.417
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:11.740
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:11.917
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:11.936
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:13.141
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:13.221
+!MESSAGE Resource leak: 'in' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:13.223
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:13.238
+!MESSAGE Validated 1. Took 3802 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:13.417
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:13.422
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:13.431
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:27.057
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:30:29.618
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:14.386
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:18.843
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:19.131
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:25.991
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:28.987
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:29.147
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:31.540
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:31.818
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:35.332
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:35.831
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:37.833
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:37.834
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:38.033
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:40.873
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:43.980
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:45.530
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:46.218
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:47.833
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:48.016
+!MESSAGE Reconciled 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:48.041
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:49.033
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:49.034
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:49.036
+!MESSAGE Validated 1. Took 616 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:49.526
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:49.718
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:49.736
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:50.041
+!MESSAGE Reconciled 1. Took 211 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:50.841
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:50.938
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:51.018
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:51.334
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:51.334
+!MESSAGE 6 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:51.335
+!MESSAGE Validated 1. Took 419 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:51.336
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:52.920
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:53.264
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:54.612
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:56.312
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:56.523
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:31:56.738
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:01.229
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:01.287
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:01.347
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:01.430
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:01.449
+!MESSAGE Reconciled 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:01.955
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:02.136
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:02.137
+!MESSAGE 6 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:02.139
+!MESSAGE Validated 1. Took 220 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:02.216
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:02.334
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:03.119
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:03.132
+!MESSAGE Resource leak: 'in' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:03.133
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:03.134
+!MESSAGE Validated 1. Took 346 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:03.233
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:03.533
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:03.717
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:05.234
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:06.131
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:07.006
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:07.457
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:08.271
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:08.530
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:09.031
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:10.381
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:11.445
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:11.713
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:12.132
+!MESSAGE >> document/codeAction
+!SESSION 2024-02-09 01:32:39.661 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/ReflectionAndPlugins/.cache/jdt-language-server/data/home/runner/ReflectionAndPlugins
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-02-09 01:32:48.744
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:53.170
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:55.745
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:56.317
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:56.340
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:56.441
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:56.442
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:56.539
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:56.540
+!MESSAGE Started org.eclipse.m2e.core 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:56.543
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:56.544
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:56.930
+!MESSAGE Started org.eclipse.buildship.core 386ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:57.141
+!MESSAGE LoadingGradleVersionJob finished 208ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:32:57.432
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:04.933
+!MESSAGE Workspace initialized in 7702ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:05.742
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:05.843
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:10.238
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:12.038
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:12.043
+!MESSAGE Resource leak: 'in' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:12.130
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:12.137
+!MESSAGE Validated 1. Took 1107 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:12.151
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:12.156
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:33:12.230
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:34:43.893
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:34:44.139
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:37:07.374
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:37:10.707
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:37:10.737
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:37:11.729
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:37:11.817
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:37:12.861
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:12.408
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:12.505
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:12.708
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:13.045
+!MESSAGE Reconciled 1. Took 323 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:13.852
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:14.235
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:14.442
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:14.444
+!MESSAGE 3 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:14.446
+!MESSAGE Validated 1. Took 989 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:14.932
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:15.748
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:16.252
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:16.877
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:17.274
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:18.027
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:18.115
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:18.316
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:18.469
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:19.246
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:19.534
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:19.536
+!MESSAGE Resource leak: 'in' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:19.538
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:19.539
+!MESSAGE Validated 1. Took 667 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:19.760
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:20.031
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:21.550
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:22.046
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:22.633
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:22.861
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:23.345
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:23.537
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:24.079
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:24.619
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:25.063
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:25.269
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:25.763
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:26.197
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:26.437
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:26.745
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:27.686
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:42.052
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:44.241
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:44.825
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:47.300
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:47.923
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:54.109
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:54.447
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:54.749
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:55.128
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:55.442
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:56.511
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:57.051
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:58.507
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:38:58.931
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:06.976
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:07.130
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:12.762
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:13.039
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:13.263
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:13.517
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:13.907
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:14.505
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:15.160
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:16.137
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:39:17.652
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:40:31.663
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:40:35.265
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:40:35.430
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:40:43.016
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:40:43.420
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:41:10.045
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-09 01:42:09.287
+!MESSAGE >> document/hover
+!SESSION 2024-02-16 00:03:20.236 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/ReflectionAndPlugins/.cache/jdt-language-server/data/home/runner/ReflectionAndPlugins
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-02-16 00:03:27.016
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:29.203
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:30.899
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:31.413
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:31.415
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:31.500
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:31.502
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:31.523
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:31.526
+!MESSAGE Started org.eclipse.m2e.core 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:31.528
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:31.529
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:31.710
+!MESSAGE Started org.eclipse.buildship.core 180ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:35.718
+!MESSAGE LoadingGradleVersionJob finished 4008ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:36.001
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:40.802
+!MESSAGE Workspace initialized in 5000ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:40.900
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:40.934
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:44.800
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:45.419
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:45.422
+!MESSAGE Resource leak: 'in' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:45.422
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:45.427
+!MESSAGE Validated 1. Took 622 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:45.511
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:45.515
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 00:03:45.516
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:05.883
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:06.290
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:07.106
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:07.500
+!MESSAGE begin problem for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:07.590
+!MESSAGE The method newInstance() from the type Class is deprecated since version 9 is of type UsingDeprecatedSinceVersionMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:07.605
+!MESSAGE 2 problems reported for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:08.803
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:08.805
+!MESSAGE Resource leak: 'in' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:08.805
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:08.806
+!MESSAGE Validated 2. Took 2111 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:17.223
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:29.576
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:37.018
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:37.103
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:37.105
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:54.794
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:48:59.124
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:49:03.834
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:49:07.993
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:49:15.755
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:49:48.634
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:49:56.449
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:00.269
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:01.450
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:11.368
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:11.399
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:11.601
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:13.213
+!MESSAGE begin problem for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:13.219
+!MESSAGE Resource leak: 'cloader' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:13.222
+!MESSAGE The method newInstance() from the type Class is deprecated since version 9 is of type UsingDeprecatedSinceVersionMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:13.225
+!MESSAGE 3 problems reported for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:13.814
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:13.817
+!MESSAGE Resource leak: 'in' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:13.818
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:13.908
+!MESSAGE begin problem for /ISurprise.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:13.909
+!MESSAGE 1 problems reported for /ISurprise.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:13.914
+!MESSAGE Validated 3. Took 1111 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:21.534
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:21.600
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:21.801
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:31.336
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:31.407
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:40.096
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:40.101
+!MESSAGE Clearing problems for /ISurprise.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:40.488
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:40.575
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:40.699
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:41.107
+!MESSAGE begin problem for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:41.109
+!MESSAGE The method newInstance() from the type Class is deprecated since version 9 is of type UsingDeprecatedSinceVersionMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:41.109
+!MESSAGE 2 problems reported for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:41.689
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:41.691
+!MESSAGE Resource leak: 'in' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:41.692
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:41.799
+!MESSAGE begin problem for /Addition.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:41.800
+!MESSAGE 1 problems reported for /Addition.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:41.801
+!MESSAGE Validated 3. Took 813 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:43.118
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:51.970
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:51.972
+!MESSAGE Clearing problems for /Addition.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:52.341
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:52.359
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:52.542
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:53.016
+!MESSAGE begin problem for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:53.019
+!MESSAGE The method newInstance() from the type Class is deprecated since version 9 is of type UsingDeprecatedSinceVersionMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:53.101
+!MESSAGE 2 problems reported for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:53.421
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:53.422
+!MESSAGE Resource leak: 'in' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:53.423
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:53.503
+!MESSAGE begin problem for /Multiplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:53.504
+!MESSAGE 1 problems reported for /Multiplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:53.504
+!MESSAGE Validated 3. Took 743 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:57.660
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:50:57.717
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:56:19.233
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:56:23.183
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:56:33.768
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:22.341
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:22.353
+!MESSAGE Clearing problems for /Multiplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:22.655
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:22.665
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:22.859
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:23.098
+!MESSAGE begin problem for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:23.100
+!MESSAGE The method newInstance() from the type Class is deprecated since version 9 is of type UsingDeprecatedSinceVersionMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:23.102
+!MESSAGE 2 problems reported for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:23.415
+!MESSAGE begin problem for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:23.491
+!MESSAGE Resource leak: 'in' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:23.492
+!MESSAGE 2 problems reported for /Reflect.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:23.505
+!MESSAGE begin problem for /Addition.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:23.506
+!MESSAGE 1 problems reported for /Addition.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:23.506
+!MESSAGE Validated 3. Took 439 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:24.561
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:24.588
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 01:59:24.790
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:12.939
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:13.102
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:26.917
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:27.014
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:27.103
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:27.499
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:27.590
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:28.763
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:55.400
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:55.886
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:56.455
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:56.687
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:57.325
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:57.716
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:58.389
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:08:59.566
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:09:23.802
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:09:27.506
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:09:54.978
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:09:55.614
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:09:55.736
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:09:56.169
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:09:56.512
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:09:57.253
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:14:27.110
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:14:32.465
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:14:32.525
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-16 02:14:32.701
+!MESSAGE >> document/codeAction
+!SESSION 2024-02-19 18:44:43.603 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/ReflectionAndPlugins/.cache/jdt-language-server/data/home/runner/ReflectionAndPlugins
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-02-19 18:44:52.517
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:44:55.998
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:44:59.106
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:44:59.796
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:44:59.812
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:44:59.996
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:44:59.997
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:00.009
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:00.096
+!MESSAGE Started org.eclipse.m2e.core 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:00.108
+!MESSAGE ProjectRegistryRefreshJob finished 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:00.111
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:00.468
+!MESSAGE Started org.eclipse.buildship.core 356ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:07.306
+!MESSAGE LoadingGradleVersionJob finished 6837ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:07.597
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:13.291
+!MESSAGE Workspace initialized in 5950ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:13.397
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:13.409
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:17.610
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:20.419
+!MESSAGE begin problem for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:20.434
+!MESSAGE Resource leak: 'cloader' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:20.441
+!MESSAGE The method newInstance() from the type Class is deprecated since version 9 is of type UsingDeprecatedSinceVersionMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:20.444
+!MESSAGE 3 problems reported for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:20.513
+!MESSAGE Validated 1. Took 1070 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:20.539
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:20.598
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-19 18:45:20.600
+!MESSAGE >> watchers registered
+!SESSION 2024-02-21 22:17:43.825 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/ReflectionAndPlugins/.cache/jdt-language-server/data/home/runner/ReflectionAndPlugins
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-02-21 22:17:50.011
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:52.640
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:54.523
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:54.923
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:54.925
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:54.998
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:55.020
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:55.028
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:55.030
+!MESSAGE Started org.eclipse.m2e.core 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:55.032
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:55.095
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:55.422
+!MESSAGE Started org.eclipse.buildship.core 325ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:59.226
+!MESSAGE LoadingGradleVersionJob finished 3802ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:17:59.513
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:05.445
+!MESSAGE Workspace initialized in 6147ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:05.598
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:05.643
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:09.140
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:10.626
+!MESSAGE begin problem for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:10.629
+!MESSAGE Resource leak: 'cloader' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:10.631
+!MESSAGE The method newInstance() from the type Class is deprecated since version 9 is of type UsingDeprecatedSinceVersionMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:10.631
+!MESSAGE 3 problems reported for /Framework.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:10.697
+!MESSAGE Validated 1. Took 570 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:10.730
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:10.734
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-02-21 22:18:10.735
+!MESSAGE >> watchers registered
+!SESSION 2024-02-22 20:57:50.907 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=GraalVM Community
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -data /home/runner/ReflectionAndPlugins/.cache/jdt-language-server/data/home/runner/ReflectionAndPlugins
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-02-22 20:57:57.849
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
