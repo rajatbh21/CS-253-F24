@@ -7,113 +7,77 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Collections.Concurrent;
 
-public class Thirty
+class Program
 {
-    private static readonly BlockingCollection<string> wordSpace = new BlockingCollection<string>();
-    private static readonly BlockingCollection<Dictionary<string, int>> freqSpace = new BlockingCollection<Dictionary<string, int>>();
-    private static HashSet<string> stopwords;
+    // Two data spaces
+    static BlockingCollection<string> wordSpace = new BlockingCollection<string>();
+    static BlockingCollection<Dictionary<string, int>> freqSpace = new BlockingCollection<Dictionary<string, int>>();
+    static HashSet<string> stopwords;
 
-    private class WordProcessor
+    static void ProcessWords()
     {
-        public void Run()
+        var wordFreqs = new Dictionary<string, int>();
+        foreach (string word in wordSpace.GetConsumingEnumerable())
         {
-            var wordFreqs = new Dictionary<string, int>();
-            while (true)
+            if (!stopwords.Contains(word))
             {
-                string word;
-                try
-                {
-                    if (!wordSpace.TryTake(out word, TimeSpan.FromSeconds(1)))
-                    {
-                        break;
-                    }
-                    
-                    if (!stopwords.Contains(word))
-                    {
-                        if (!wordFreqs.ContainsKey(word))
-                            wordFreqs[word] = 0;
-                        wordFreqs[word]++;
-                    }
-                }
-                catch (OperationCanceledException)
-                {
-                    break;
-                }
+                if (wordFreqs.ContainsKey(word))
+                    wordFreqs[word]++;
+                else
+                    wordFreqs[word] = 1;
             }
-            freqSpace.Add(wordFreqs);
         }
+        freqSpace.Add(wordFreqs);
     }
 
-    public static void Main(string[] args)
+    static void Main(string[] args)
     {
-        if (args.Length < 1)
+        if (args.Length != 1)
         {
-            Console.WriteLine("Please provide input file path");
-            Environment.Exit(1);
+            Console.WriteLine("Please provide an input file path");
+            return;
         }
 
-        try
+        stopwords = new HashSet<string>(
+            File.ReadAllText("../stop_words.txt")
+                .Split(',')
+                .Select(w => w.Trim())
+        );
+
+        string text = File.ReadAllText(args[0]).ToLower();
+        var regex = new Regex(@"[a-z]{2,}");
+
+        foreach (Match match in regex.Matches(text))
         {
-            // Load stopwords
-            stopwords = new HashSet<string>(
-                File.ReadAllText("../stop_words.txt")
-                    .Split(',')
-                    .Select(w => w.Trim())
-            );
+            wordSpace.Add(match.Value);
+        }
+        wordSpace.CompleteAdding();
 
-            
-            string content = File.ReadAllText(args[0]).ToLower();
-            var pattern = new Regex(@"[a-z]{2,}");
-            foreach (Match match in pattern.Matches(content))
-            {
-                wordSpace.Add(match.Value);
-            }
-            wordSpace.CompleteAdding();
+        var workers = new List<Task>();
+        for (int i = 0; i < 5; i++)
+        {
+            workers.Add(Task.Run(() => ProcessWords()));
+        }
+        Task.WaitAll(workers.ToArray());
+        freqSpace.CompleteAdding();
 
-            
-            var workers = new List<Thread>();
-            for (int i = 0; i < 5; i++)
+        var wordFreqs = new Dictionary<string, int>();
+        foreach (var freqs in freqSpace.GetConsumingEnumerable())
+        {
+            foreach (var pair in freqs)
             {
-                var processor = new WordProcessor();
-                var worker = new Thread(processor.Run);
-                workers.Add(worker);
-                worker.Start();
-            }
-
-            
-            foreach (var worker in workers)
-            {
-                worker.Join();
-            }
-
-           
-            var wordFreqs = new Dictionary<string, int>();
-            while (!freqSpace.IsCompleted)
-            {
-                Dictionary<string, int> freqs;
-                if (freqSpace.TryTake(out freqs))
-                {
-                    foreach (var pair in freqs)
-                    {
-                        if (!wordFreqs.ContainsKey(pair.Key))
-                            wordFreqs[pair.Key] = 0;
-                        wordFreqs[pair.Key] += pair.Value;
-                    }
-                }
-            }
-
-          
-            foreach (var pair in wordFreqs
-                .OrderByDescending(x => x.Value)
-                .Take(25))
-            {
-                Console.WriteLine($"{pair.Key} - {pair.Value}");
+                if (wordFreqs.ContainsKey(pair.Key))
+                    wordFreqs[pair.Key] += pair.Value;
+                else
+                    wordFreqs[pair.Key] = pair.Value;
             }
         }
-        catch (IOException e)
+
+        foreach (var pair in wordFreqs
+            .OrderByDescending(x => x.Value)
+            .Take(25))
         {
-            Console.Error.WriteLine($"Error reading file: {e.Message}");
-            Environment.Exit(1);
+            Console.WriteLine($"{pair.Key} - {pair.Value}");
         }
     }
 }
